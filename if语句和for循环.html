@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+<title>
+绕太阳
+</title>
+</head>
+<body>
+    <script>
+//赋值运算
+var yang=10;
+var zhang=20
+console.log(yang+zhang);//打印为30
+
+        var zhang=2;
+
+        if (zhang===4) {
+        console.log("我是华静")      
+     }else{
+    console.log("我是杨")
+     }
+
+
+     var day=5;
+     if (day===0) {
+        console.log("今天是周一")
+        
+     } else  if(day===1){console.log("今天是周二")
+        
+     } else if(day===2){console.log("今天是周三")
+
+     } else if(day===3){
+        console.log("今天是周四")
+     } else if(day===4){
+        console.log("今天是周五")
+     }else if(day===5){
+        console.log("今天是周六")
+     }else {
+        console.log("今天是周天")
+     }
+
+
+    
+    
+     var hua=3;
+     switch(hua){
+      case 0:
+         console.log("周一");
+         break
+         case 1:
+            caches.log("周二");              //switch一般搭配case使用     如果switch的值等于0则 打印周一否则打印周五
+            break 
+            case 2:
+      console.log("周三");
+      break
+      case 3:
+         console.log("周四")
+         break
+       default:
+         console.log("周五")
+      }
+
+      //比较两个数值是否相等
+      var num1=10;
+      var num2="10";
+      console.log(num1 != num2);//比较两个数值如果相等打印false 只对数值比较
+      console.log(num1 !== num2);//严格比较既比较数值也比较类型如果不相等打印true
+
+
+      
+      console.log(100 >10 && 100 > 20 && 100>30);//&&多个条件都要满足，任何一个条件不满足，都是fales
+      console.log(100 > 10 || 100 > 200); //   ||多个条件，满足一个则为真，都不满足才是false
+
+
+      //需求：从1打印到100
+       for(var w=1; w<=50;w++){
+         console.log(w);
+       }
+    </script>
+    
+</body>
+</html>
